@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Archivos temporales
+*.bak
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+.idea/
+.vscode/
