@@ -34,4 +34,6 @@ sudo firewall-cmd --reload
 
 ```bash
 sudo -E env PYTHONPATH=/home/.../Desktop/nfs /home/.../Desktop/nfs/.venv/bin/python -m src.nfsapp.main
+
+sudo -E bash -c 'cd /home/.../Desktop/nfs && /home/.../Desktop/nfs/.venv/bin/python -m src.nfsapp.main'
 ```
