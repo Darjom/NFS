@@ -37,3 +37,10 @@ sudo -E env PYTHONPATH=/home/.../Desktop/nfs /home/.../Desktop/nfs/.venv/bin/pyt
 
 sudo -E bash -c 'cd /home/.../Desktop/nfs && /home/.../Desktop/nfs/.venv/bin/python -m src.nfsapp.main'
 ```
+
+## Sqash check
+
+poner en  extras esto si seleccional el rot_sqash
+```bash
+anonuid=1000,anongid=100
+```
